@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #ffffff;
+  color: rgb(150, 2, 2);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+/* fullstack Bakery */
+.brand {
+  font-weight: 600;
+  font-size: 50px;
+}
+/* nav bar */
+nav a {
+  color: rgb(0, 0, 0);
+  margin-left: 40px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  background-color: rgb(251, 251, 251);
+}
+aside {
+  align-self: flex-start;
+  display: flex;
+  width: 150px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+aside ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+}
+aside li {
+  background-color: #0017ea;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+main {
+  display: flex;
+  padding: 40px;
+  flex: 1;
+  text-align: justify;
+}
+
+.testimonial {
+  background-color: #0017ea;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  background-color: #0017ea;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+}
+
+.brand {
+  font-weight: 500;
+  font-size: 060px;
+  margin-top: 20px;
+  margin-bottom: -40px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+h2 {
+  margin-bottom: 0%;
+}
